@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ksense-Challenge</title>
+  </head>
+  <body>
+    <div id="userData">
+      <h1><i class="fas fa-hashtag"> Social Sense </i> <i class="fas fa-people-arrows"></i></h1>
+
+      <table id="tableRow">
+        <thead>
+          <tr>
+            <th><i class="fas fa-users"> Users</i></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="modals" class="modal">
+      <div class="content">
+        <span class="close">&times;</span>
+        <h1 id="username"></h1>
+        <p id="postText"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

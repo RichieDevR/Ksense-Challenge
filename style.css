@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+body {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgb(250, 246, 246);
+	background-color:#03071e;
+	display:flex;
+	justify-content:center;
+	flex-direction:row-reverse;
+	align-items:center;
+}
+
+#tableRow {
+	border-radius: 25px;
+	border: 0.1px solid rgb(250, 246, 246);
+	padding: 10px;
+	width: 200px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.9em;
+	font-family: 'Muli',sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px #370617;
+}
+
+#tableRow thead tr {
+	background-color: #370617;
+	color: #ffff;
+	text-align: left;
+}
+
+#tableRow th,
+td {
+	padding: 12px 15px;
+	border-radius: 10px;
+}
+
+#tableRow tbody tr {
+	cursor: pointer;
+	border-bottom: thin solid #dddddd;
+	
+}
+
+#tableRow tbody tr:nth-of-type(even) {
+	background-color: #6a040f;
+;
+}
+
+#tableRow tbody tr:last-of-type {
+	border-bottom: 2px solid #f6faf9;
+}
+
+#postText {
+	white-space: pre-line;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.content {
+	display:flex;
+	flex-direction: column;
+	background-color: #fcbf49;
+	margin: 15% auto;
+	padding: 20px;
+	border: 3px solid rgb(155, 5, 30);
+	width: 80%;
+	border-radius: 25px;
+	color:#000
+} 
+ 
+
+.close {
+	color: rgb(104, 5, 5);
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
