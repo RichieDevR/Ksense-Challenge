@@ -43,7 +43,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
  			console.log("error: " + err);
  		});
  })
-//list users posts in pop up modal post closes when x is clicked and server awaits next click to make api call again for subsequent user.
+//list users posts in pop up modal post closes when x is clicked by setting display to none and server awaits next click to make api call again for whichever  user.
  const listPosts = ((name, userID, username, postData) => {
  	let posts = "";
  	let modals = document.getElementById("modals");
